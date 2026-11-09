@@ -24,19 +24,19 @@ export type Release = {
 
 // Snapshot used when neither the build nor the browser can reach the GitHub API.
 export const FALLBACK_RELEASE: Release = {
-  tag: "v0.7.8",
-  version: "0.7.8",
-  date: "2026-11-07T18:43:31Z",
-  url: `${GITHUB_URL}/releases/tag/v0.7.8`,
+  tag: "v0.7.9",
+  version: "0.7.9",
+  date: "2026-11-09T18:53:34Z",
+  url: `${GITHUB_URL}/releases/tag/v0.7.9`,
   windows: {
-    name: "launchme-0.7.8-win64.zip",
-    size: 215901777,
-    url: `${GITHUB_URL}/releases/download/v0.7.8/launchme-0.7.8-win64.zip`,
+    name: "launchme-0.7.9-win64.zip",
+    size: 215984770,
+    url: `${GITHUB_URL}/releases/download/v0.7.9/launchme-0.7.9-win64.zip`,
   },
   linux: {
-    name: "launchme-0.7.8-x86_64.AppImage",
-    size: 285805048,
-    url: `${GITHUB_URL}/releases/download/v0.7.8/launchme-0.7.8-x86_64.AppImage`,
+    name: "launchme-0.7.9-x86_64.AppImage",
+    size: 285932024,
+    url: `${GITHUB_URL}/releases/download/v0.7.9/launchme-0.7.9-x86_64.AppImage`,
   },
   stars: 49,
 };
